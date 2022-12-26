@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
     <div className="h-screen flex flex-col items-center justify-center space-y-8 text-center overflow-hidden">
       <BackgroundCircles />
       <img
-        src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600"
+        src="https://cdn.sanity.io/images/o7156ep0/production/db2c231169c9f641b659fe1d220d7cb694fc48f6-3024x4032.jpg"
         alt="DP"
         className="rounded-full h-32 w-32 relative object-cover mx-auto"
       />
