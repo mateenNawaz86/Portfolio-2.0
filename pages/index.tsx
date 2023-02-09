@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div className="bg-gray-700 text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
         <title>Mateen's Portfolio</title>
-      </Head>
+      </Head> 
       {/* Header */}
       <Header />
       {/* Hero */}

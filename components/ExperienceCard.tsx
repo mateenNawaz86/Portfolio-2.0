@@ -5,7 +5,7 @@ type Props = {};
 
 const ExperienceCard = (props: Props) => {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 snap-center bg-[#292929] p-10 opacity-40 overflow-hidden translate-opacity duration-200 hover:opacity-100 w-[500px] md:w-[600px] xl:w-[900px] ">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 snap-center bg-[#292929] p-6 opacity-40 overflow-hidden translate-opacity duration-200 hover:opacity-100 w-[300px] md:w-[400px] xl:w-[500px] ">
       <motion.img
         initial={{
           y: -100, // start from -100 vertically
@@ -16,13 +16,13 @@ const ExperienceCard = (props: Props) => {
         viewport={{ once: true }}
         src="https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=600"
         alt="user profile"
-        className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
+        className="w-24 h-24 rounded-full xl:w-[100px] xl:h-[100px] object-cover object-center"
       />
 
       {/* Div for Title */}
-      <div className="px-0 md:px-6">
+      <div className="px-0 md:px-4">
         <h4 className="text-3xl font-light">TOP Rated Freelancer</h4>
-        <p className="text-2xl font-bold my-2">Upwork & Fiverr</p>
+        <p className="text-2xl font-bold my-1">Upwork & Fiverr</p>
       </div>
       <div className="flex space-x-2 my-2">
         {/* Technologies */}
@@ -49,7 +49,7 @@ const ExperienceCard = (props: Props) => {
           alt="MongoDB"
         />
       </div>
-      <p className="uppercase py-2 text-gray-300">
+      <p className="uppercase text-gray-300">
         Started Work from 2022 - Present
       </p>
       <ul className="list-disc space-y-2 ml-5 text-lg">
