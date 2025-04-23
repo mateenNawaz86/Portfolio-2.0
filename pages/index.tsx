@@ -9,28 +9,21 @@ const Home: NextPage = () => {
   return (
     <div className="bg-gray-700 text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
-        <title>Mateen's Portfolio</title>
-      </Head> 
-      {/* Header */}
+        <title>Mateen Portfolio</title>
+      </Head>
       <Header />
-      {/* Hero */}
+
       <section id="hero" className="snap-start">
         <Hero />
       </section>
 
-      {/* About Me */}
       <section id="about" className="snap-center">
         <About />
       </section>
 
-      {/* Experience */}
       <section id="experience" className="snap-center">
         <Experience />
       </section>
-
-      {/* Projects */}
-
-      {/* Contact */}
     </div>
   );
 };
