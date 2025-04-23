@@ -15,6 +15,7 @@ const Hero = (props: Props) => {
     loop: true,
     delaySpeed: 2000,
   });
+
   return (
     <div className="h-screen flex flex-col items-center justify-center space-y-8 text-center overflow-hidden">
       <BackgroundCircles />
@@ -25,7 +26,7 @@ const Hero = (props: Props) => {
       />
       <div className="z-20">
         <h2 className="uppercase text-sm tracking-[8px] pb-2 text-gray-400">
-          MERN Stack Developer
+          Fullstack Developer
         </h2>
         <h1 className="text-xl md:3xl lg:5xl font-semibold px-10">
           <span className="mr-3">{text}</span>
@@ -34,16 +35,16 @@ const Hero = (props: Props) => {
 
         <div className="pt-5">
           <Link href="#about">
-            <button className="heroButton ">ABout</button>
+            <button className="heroButton">About</button>
           </Link>
           <Link href="#experience">
-            <button className="heroButton ">Experience</button>
+            <button className="heroButton">Experience</button>
           </Link>
           <Link href="#skills">
-            <button className="heroButton ">Skills</button>
+            <button className="heroButton">Skills</button>
           </Link>
           <Link href="#projects">
-            <button className="heroButton ">Projects</button>
+            <button className="heroButton">Projects</button>
           </Link>
         </div>
       </div>
