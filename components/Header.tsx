@@ -24,7 +24,6 @@ const Header = (props: Props) => {
           }}
           className="flex flex-row items-center"
         >
-          {/* Social Links */}
           <SocialIcon
             url="https://www.github.com/mateenNawaz86"
             bgColor="transparent"
